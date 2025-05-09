@@ -434,6 +434,7 @@ GameObject:
   - component: {fileID: 428721329}
   - component: {fileID: 428721328}
   - component: {fileID: 428721327}
+  - component: {fileID: 428721333}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -467,7 +468,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _moveSpeed: 1
-  _rotationSpeed: 8
 --- !u!65 &428721329
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -554,6 +554,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &428721333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428721326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 668e9559279e1c54e9950e46e4dcd33c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotationSpeed: 1
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -850,7 +863,7 @@ GameObject:
   - component: {fileID: 1069514398}
   - component: {fileID: 1069514397}
   - component: {fileID: 1069514396}
-  - component: {fileID: 1069514395}
+  - component: {fileID: 1069514400}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -858,20 +871,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1069514395
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1069514394}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2b02766794c9ce43a4452c8f13dc283, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _moveSpeed: 0
-  _rotationSpeed: 10
 --- !u!65 &1069514396
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -958,6 +957,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1069514400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069514394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 668e9559279e1c54e9950e46e4dcd33c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotationSpeed: 1
 --- !u!1 &1119246275 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1095970306432993455, guid: 60ecb9b24bd23f041b1ca6d9f580d5fc, type: 3}
@@ -1165,6 +1177,7 @@ MonoBehaviour:
   _deley: 0.5
   _startCount: 0
   _text: {fileID: 2046798984}
+  _isOn: 1
 --- !u!1001 &1395424866
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2843,7 +2856,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _moveSpeed: 1
-  _rotationSpeed: 0
 --- !u!135 &2089463833
 SphereCollider:
   m_ObjectHideFlags: 0
